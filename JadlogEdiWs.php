@@ -15,7 +15,7 @@ class JadlogEdiWs
 		$this->method = $method;
 	}
 
-	public function valorFreteBeanValorar($array)
+	public function call($array)
 	{
 
 		$soapClient = new \SoapClient(
